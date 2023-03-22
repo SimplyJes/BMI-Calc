@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BMI Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section id="section">
+    <div class="form-list">
+    <h1>BMI Calculator</h1>
+    <p class="formular">The formular for BMI is: (weight(kg) / (height(m))^2)</p>
+    <form class="bmi-form" action="index.html" method="post">
+      <label for="">Weight:
+      <input id="weight" type="text"></label><br>
+      <label for="">Height:
+      <input id="height" type="text" ></label><br>
+      <button class="clear-btn" type="reset" name="button">Clear</button>
+      <button class="calculate-btn" type="button" name="button" onclick="calculate()">Calculate</button>
+      <hr>
+    </form>
+    </div>
+    <h3 id="result-paragraph"></h3>
+    <p id="result-statement"></p>
+
+
+  </section>
+  <footer>© TimiTech 2023😍.</footer>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
